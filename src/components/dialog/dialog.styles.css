@@ -1,0 +1,29 @@
+.dialog {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 2rem;
+  border-radius: 1rem;
+  background-color: #eee;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  z-index: 20;
+}
+.dialog-heading {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(217, 25, 217);
+}
+.dialog-para,
+.dialog-heading {
+  padding: 1rem;
+  text-align: start;
+  align-self: flex-start;
+}
+
+.dialog-btn {
+  margin-right: 2rem;
+}
